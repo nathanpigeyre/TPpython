@@ -8,7 +8,7 @@ while n!=10:
     if 0 < x < 20 or 0 == x or x == 20:
         x = float(input("File un nombre:"))
         if x <10:
-            vmin = vi + 1
+            vmin = vmin + 1
             n = n + 1
         elif 10<x<15 or x==10:
             vmoy = vmoy + 1
