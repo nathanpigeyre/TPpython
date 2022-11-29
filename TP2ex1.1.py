@@ -1,7 +1,7 @@
-x = 1
-y = 2
-print("Avant permutation:\nEntrez x: {} \nEntrez y: {} ".format(x , y))
+x=input("Entrez x:")
+y=input("Entrez y:")
+print("Avant permutation:\nx: {} \ny: {} ".format(x , y))
 m = x
 x = y
 y = m
-print("Après permutation:\nEntrez x: {} \nEntrez y: {} ".format( x , y))
+print("Après permutation:\nx: {} \ny: {} ".format( x , y))
